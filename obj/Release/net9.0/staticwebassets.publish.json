@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BaQp4ICSAGnWj/M7BWH6oXEBB3uUqYo3CG2WeyamEgQ=",
+  "Source": "DoctorAppointmentSystem",
+  "BasePath": "_content/DoctorAppointmentSystem",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

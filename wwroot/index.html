@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Appointment System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Doctor Appointment System</h1>
+  </header>
+
+  <main>
+    <section id="appointments">
+      <h2>Available Appointments</h2>
+      <ul id="appointments-list">
+        <!-- Appointments will be loaded here by JS -->
+      </ul>
+    </section>
+
+    <section id="appointment-detail" style="display:none;">
+      <h2>Book Appointment</h2>
+      <form id="appointment-form">
+        <label for="patientName">Patient Name:</label>
+        <input type="text" id="patientName" required>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" required></textarea>
+
+        <button type="submit">Submit Comment</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
